@@ -7,21 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F14C52C1BF5EC1100B99E6E /* MainNaviController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F14C52B1BF5EC1100B99E6E /* MainNaviController.swift */; };
+		5F14C5301BF6393800B99E6E /* MyDiaryTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F14C52F1BF6393800B99E6E /* MyDiaryTableTableViewController.swift */; };
+		5F14C5321BF7224000B99E6E /* IdentificationIinfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F14C5311BF7224000B99E6E /* IdentificationIinfo.swift */; };
+		5F14C5341BF783B700B99E6E /* EditDiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F14C5331BF783B700B99E6E /* EditDiaryViewController.swift */; };
+		5F14C5361BF868EE00B99E6E /* DiaryObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F14C5351BF868EE00B99E6E /* DiaryObject.swift */; };
+		5F279DFE1C05A924003F14F2 /* MyDiaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F279DFD1C05A924003F14F2 /* MyDiaryCell.swift */; };
+		5F279E001C05AA81003F14F2 /* MyDiaryNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F279DFF1C05AA81003F14F2 /* MyDiaryNavigationController.swift */; };
+		5F279E021C099508003F14F2 /* CalendarNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F279E011C099508003F14F2 /* CalendarNavigationController.swift */; };
+		5F279E041C09951B003F14F2 /* SettingNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F279E031C09951B003F14F2 /* SettingNavigationController.swift */; };
+		5F279E061C09B7C0003F14F2 /* WeatherPopOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F279E051C09B7C0003F14F2 /* WeatherPopOverViewController.swift */; };
+		5F279E091C09D0AB003F14F2 /* FacePopOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F279E081C09D0AB003F14F2 /* FacePopOverViewController.swift */; };
+		5F6B32831C1ADDE500B4DCE3 /* SettingPassWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6B32821C1ADDE500B4DCE3 /* SettingPassWordViewController.swift */; };
+		5F6C0F5F1C1C09FC00BFA3F3 /* JSONMgr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6C0F5E1C1C09FC00BFA3F3 /* JSONMgr.swift */; };
 		5F6C43371BECDD5F00FB47BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6C43361BECDD5F00FB47BF /* AppDelegate.swift */; };
-		5F6C43391BECDD5F00FB47BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6C43381BECDD5F00FB47BF /* ViewController.swift */; };
-		5F6C433C1BECDD5F00FB47BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F6C433A1BECDD5F00FB47BF /* Main.storyboard */; };
 		5F6C433E1BECDD5F00FB47BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F6C433D1BECDD5F00FB47BF /* Assets.xcassets */; };
 		5F6C43411BECDD5F00FB47BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F6C433F1BECDD5F00FB47BF /* LaunchScreen.storyboard */; };
+		5F6C43491BECE81700FB47BF /* PassSignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6C43481BECE81700FB47BF /* PassSignViewController.swift */; };
+		5F6C43511BEF399D00FB47BF /* CalendarMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6C43501BEF399D00FB47BF /* CalendarMainViewController.swift */; };
+		5F6C43561BEF472400FB47BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F6C43541BEF472400FB47BF /* Main.storyboard */; };
+		5F6C437A1BF0A37D00FB47BF /* dbMgr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6C43791BF0A37D00FB47BF /* dbMgr.swift */; };
+		5F6C437C1BF0A39D00FB47BF /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6C437B1BF0A39D00FB47BF /* SQLite.framework */; };
+		5F6C437E1BF0A3A400FB47BF /* CVCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6C437D1BF0A3A400FB47BF /* CVCalendar.framework */; };
+		5F6C43821BF1C00C00FB47BF /* WriteDiaryInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6C43811BF1C00C00FB47BF /* WriteDiaryInfo.swift */; };
+		5F6CF8A11BF2FFAC003E8165 /* TabPopUpTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6CF8A01BF2FFAC003E8165 /* TabPopUpTableViewController.swift */; };
+		5F6CF8A61BF30EE5003E8165 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6CF8A51BF30EE5003E8165 /* MainViewController.swift */; };
+		5F7619771BFB02CA001E0B49 /* SettingTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7619761BFB02CA001E0B49 /* SettingTableTableViewController.swift */; };
+		5F8C1DB01C19C21E00222232 /* WriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8C1DAF1C19C21E00222232 /* WriteViewController.swift */; };
+		77A313B284189A6ABDB88ACB /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A828769D4906F5EBA5E960 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F14C52B1BF5EC1100B99E6E /* MainNaviController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNaviController.swift; sourceTree = "<group>"; };
+		5F14C52F1BF6393800B99E6E /* MyDiaryTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyDiaryTableTableViewController.swift; sourceTree = "<group>"; };
+		5F14C5311BF7224000B99E6E /* IdentificationIinfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdentificationIinfo.swift; sourceTree = "<group>"; };
+		5F14C5331BF783B700B99E6E /* EditDiaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditDiaryViewController.swift; sourceTree = "<group>"; };
+		5F14C5351BF868EE00B99E6E /* DiaryObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaryObject.swift; sourceTree = "<group>"; };
+		5F279DFD1C05A924003F14F2 /* MyDiaryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyDiaryCell.swift; sourceTree = "<group>"; };
+		5F279DFF1C05AA81003F14F2 /* MyDiaryNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyDiaryNavigationController.swift; sourceTree = "<group>"; };
+		5F279E011C099508003F14F2 /* CalendarNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarNavigationController.swift; sourceTree = "<group>"; };
+		5F279E031C09951B003F14F2 /* SettingNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingNavigationController.swift; sourceTree = "<group>"; };
+		5F279E051C09B7C0003F14F2 /* WeatherPopOverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherPopOverViewController.swift; sourceTree = "<group>"; };
+		5F279E081C09D0AB003F14F2 /* FacePopOverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacePopOverViewController.swift; sourceTree = "<group>"; };
+		5F6B32821C1ADDE500B4DCE3 /* SettingPassWordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingPassWordViewController.swift; sourceTree = "<group>"; };
+		5F6C0F5E1C1C09FC00BFA3F3 /* JSONMgr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONMgr.swift; sourceTree = "<group>"; };
 		5F6C43331BECDD5F00FB47BF /* PassWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F6C43361BECDD5F00FB47BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5F6C43381BECDD5F00FB47BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5F6C433B1BECDD5F00FB47BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F6C433D1BECDD5F00FB47BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F6C43401BECDD5F00FB47BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F6C43421BECDD5F00FB47BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F6C43481BECE81700FB47BF /* PassSignViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassSignViewController.swift; sourceTree = "<group>"; };
+		5F6C43501BEF399D00FB47BF /* CalendarMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarMainViewController.swift; sourceTree = "<group>"; };
+		5F6C43551BEF472400FB47BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F6C43791BF0A37D00FB47BF /* dbMgr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dbMgr.swift; sourceTree = "<group>"; };
+		5F6C437B1BF0A39D00FB47BF /* SQLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SQLite.framework; path = "Pods/../build/Debug-iphoneos/SQLite.framework"; sourceTree = "<group>"; };
+		5F6C437D1BF0A3A400FB47BF /* CVCalendar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CVCalendar.framework; path = "Pods/../build/Debug-iphoneos/CVCalendar.framework"; sourceTree = "<group>"; };
+		5F6C43811BF1C00C00FB47BF /* WriteDiaryInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WriteDiaryInfo.swift; sourceTree = "<group>"; };
+		5F6CF8A01BF2FFAC003E8165 /* TabPopUpTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabPopUpTableViewController.swift; sourceTree = "<group>"; };
+		5F6CF8A51BF30EE5003E8165 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		5F7619761BFB02CA001E0B49 /* SettingTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingTableTableViewController.swift; sourceTree = "<group>"; };
+		5F8C1DAF1C19C21E00222232 /* WriteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WriteViewController.swift; sourceTree = "<group>"; };
+		65A828769D4906F5EBA5E960 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		733B8ACA4E403353FA2D61CA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		CD06EC0607DADCCB811AFB1A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +77,51 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F6C437E1BF0A3A400FB47BF /* CVCalendar.framework in Frameworks */,
+				5F6C437C1BF0A39D00FB47BF /* SQLite.framework in Frameworks */,
+				77A313B284189A6ABDB88ACB /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4078FABA7B054A804BD3D654 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD06EC0607DADCCB811AFB1A /* Pods.debug.xcconfig */,
+				733B8ACA4E403353FA2D61CA /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5F14C52A1BF5EBED00B99E6E /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				5F14C52B1BF5EC1100B99E6E /* MainNaviController.swift */,
+				5F279DFF1C05AA81003F14F2 /* MyDiaryNavigationController.swift */,
+				5F279E011C099508003F14F2 /* CalendarNavigationController.swift */,
+				5F279E031C09951B003F14F2 /* SettingNavigationController.swift */,
+			);
+			name = Navigation;
+			sourceTree = "<group>";
+		};
+		5F279E071C09D08E003F14F2 /* PopOver */ = {
+			isa = PBXGroup;
+			children = (
+				5F279E051C09B7C0003F14F2 /* WeatherPopOverViewController.swift */,
+				5F279E081C09D0AB003F14F2 /* FacePopOverViewController.swift */,
+			);
+			name = PopOver;
+			sourceTree = "<group>";
+		};
 		5F6C432A1BECDD5F00FB47BF = {
 			isa = PBXGroup;
 			children = (
 				5F6C43351BECDD5F00FB47BF /* PassWord */,
 				5F6C43341BECDD5F00FB47BF /* Products */,
+				4078FABA7B054A804BD3D654 /* Pods */,
+				F57E58BFB0733432100B8F1F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +136,64 @@
 		5F6C43351BECDD5F00FB47BF /* PassWord */ = {
 			isa = PBXGroup;
 			children = (
-				5F6C43361BECDD5F00FB47BF /* AppDelegate.swift */,
-				5F6C43381BECDD5F00FB47BF /* ViewController.swift */,
-				5F6C433A1BECDD5F00FB47BF /* Main.storyboard */,
-				5F6C433D1BECDD5F00FB47BF /* Assets.xcassets */,
-				5F6C433F1BECDD5F00FB47BF /* LaunchScreen.storyboard */,
-				5F6C43421BECDD5F00FB47BF /* Info.plist */,
+				5F6CF8A31BF2FFCB003E8165 /* Model */,
+				5F6CF8A41BF2FFD8003E8165 /* Asset */,
+				5F6CF8A21BF2FFC4003E8165 /* Controller */,
 			);
 			path = PassWord;
+			sourceTree = "<group>";
+		};
+		5F6CF8A21BF2FFC4003E8165 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5F6C43361BECDD5F00FB47BF /* AppDelegate.swift */,
+				5F279E071C09D08E003F14F2 /* PopOver */,
+				5F14C52A1BF5EBED00B99E6E /* Navigation */,
+				5F6CF8A51BF30EE5003E8165 /* MainViewController.swift */,
+				5F6C43481BECE81700FB47BF /* PassSignViewController.swift */,
+				5F6CF8A01BF2FFAC003E8165 /* TabPopUpTableViewController.swift */,
+				5F6C43501BEF399D00FB47BF /* CalendarMainViewController.swift */,
+				5F14C52F1BF6393800B99E6E /* MyDiaryTableTableViewController.swift */,
+				5F7619761BFB02CA001E0B49 /* SettingTableTableViewController.swift */,
+				5F14C5331BF783B700B99E6E /* EditDiaryViewController.swift */,
+				5F8C1DAF1C19C21E00222232 /* WriteViewController.swift */,
+				5F6B32821C1ADDE500B4DCE3 /* SettingPassWordViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		5F6CF8A31BF2FFCB003E8165 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5F279DFD1C05A924003F14F2 /* MyDiaryCell.swift */,
+				5F6C43811BF1C00C00FB47BF /* WriteDiaryInfo.swift */,
+				5F6C43791BF0A37D00FB47BF /* dbMgr.swift */,
+				5F14C5311BF7224000B99E6E /* IdentificationIinfo.swift */,
+				5F14C5351BF868EE00B99E6E /* DiaryObject.swift */,
+				5F6C0F5E1C1C09FC00BFA3F3 /* JSONMgr.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5F6CF8A41BF2FFD8003E8165 /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				5F6C43421BECDD5F00FB47BF /* Info.plist */,
+				5F6C433D1BECDD5F00FB47BF /* Assets.xcassets */,
+				5F6C433F1BECDD5F00FB47BF /* LaunchScreen.storyboard */,
+				5F6C43541BEF472400FB47BF /* Main.storyboard */,
+			);
+			name = Asset;
+			sourceTree = "<group>";
+		};
+		F57E58BFB0733432100B8F1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F6C437D1BF0A3A400FB47BF /* CVCalendar.framework */,
+				5F6C437B1BF0A39D00FB47BF /* SQLite.framework */,
+				65A828769D4906F5EBA5E960 /* Pods.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5F6C43451BECDD5F00FB47BF /* Build configuration list for PBXNativeTarget "PassWord" */;
 			buildPhases = (
+				C1042AD5CDB85A1B3621472E /* Check Pods Manifest.lock */,
 				5F6C432F1BECDD5F00FB47BF /* Sources */,
 				5F6C43301BECDD5F00FB47BF /* Frameworks */,
 				5F6C43311BECDD5F00FB47BF /* Resources */,
+				B2F5E4079854A6EBF74F282B /* Embed Pods Frameworks */,
+				6F7622CD5AE27E32877BBE79 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -90,11 +225,13 @@
 		5F6C432B1BECDD5F00FB47BF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "규철 임";
 				TargetAttributes = {
 					5F6C43321BECDD5F00FB47BF = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = EDV5RZXP86;
 					};
 				};
 			};
@@ -122,40 +259,108 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F6C43411BECDD5F00FB47BF /* LaunchScreen.storyboard in Resources */,
+				5F6C43561BEF472400FB47BF /* Main.storyboard in Resources */,
 				5F6C433E1BECDD5F00FB47BF /* Assets.xcassets in Resources */,
-				5F6C433C1BECDD5F00FB47BF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F7622CD5AE27E32877BBE79 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2F5E4079854A6EBF74F282B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1042AD5CDB85A1B3621472E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5F6C432F1BECDD5F00FB47BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F6C43391BECDD5F00FB47BF /* ViewController.swift in Sources */,
+				5F6C0F5F1C1C09FC00BFA3F3 /* JSONMgr.swift in Sources */,
+				5F14C5341BF783B700B99E6E /* EditDiaryViewController.swift in Sources */,
+				5F14C5301BF6393800B99E6E /* MyDiaryTableTableViewController.swift in Sources */,
+				5F279E061C09B7C0003F14F2 /* WeatherPopOverViewController.swift in Sources */,
+				5F6C43821BF1C00C00FB47BF /* WriteDiaryInfo.swift in Sources */,
+				5F6CF8A11BF2FFAC003E8165 /* TabPopUpTableViewController.swift in Sources */,
+				5F279E021C099508003F14F2 /* CalendarNavigationController.swift in Sources */,
+				5F6C43491BECE81700FB47BF /* PassSignViewController.swift in Sources */,
+				5F14C5321BF7224000B99E6E /* IdentificationIinfo.swift in Sources */,
+				5F6C43511BEF399D00FB47BF /* CalendarMainViewController.swift in Sources */,
+				5F6CF8A61BF30EE5003E8165 /* MainViewController.swift in Sources */,
+				5F8C1DB01C19C21E00222232 /* WriteViewController.swift in Sources */,
+				5F6C437A1BF0A37D00FB47BF /* dbMgr.swift in Sources */,
+				5F279DFE1C05A924003F14F2 /* MyDiaryCell.swift in Sources */,
 				5F6C43371BECDD5F00FB47BF /* AppDelegate.swift in Sources */,
+				5F279E041C09951B003F14F2 /* SettingNavigationController.swift in Sources */,
+				5F7619771BFB02CA001E0B49 /* SettingTableTableViewController.swift in Sources */,
+				5F279E001C05AA81003F14F2 /* MyDiaryNavigationController.swift in Sources */,
+				5F14C52C1BF5EC1100B99E6E /* MainNaviController.swift in Sources */,
+				5F6B32831C1ADDE500B4DCE3 /* SettingPassWordViewController.swift in Sources */,
+				5F14C5361BF868EE00B99E6E /* DiaryObject.swift in Sources */,
+				5F279E091C09D0AB003F14F2 /* FacePopOverViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5F6C433A1BECDD5F00FB47BF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5F6C433B1BECDD5F00FB47BF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5F6C433F1BECDD5F00FB47BF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				5F6C43401BECDD5F00FB47BF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5F6C43541BEF472400FB47BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F6C43551BEF472400FB47BF /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -244,23 +449,44 @@
 		};
 		5F6C43461BECDD5F00FB47BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD06EC0607DADCCB811AFB1A /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = PassWord/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ssu.PassWord;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "PassWord/PassWord-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		5F6C43471BECDD5F00FB47BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 733B8ACA4E403353FA2D61CA /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = PassWord/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ssu.PassWord;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "PassWord/PassWord-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -283,6 +509,7 @@
 				5F6C43471BECDD5F00FB47BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

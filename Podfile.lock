@@ -1,0 +1,32 @@
+PODS:
+  - CVCalendar (1.2.7)
+  - SQLite.swift (1.0.0.pre)
+  - SWRevealViewController (2.4.0)
+
+DEPENDENCIES:
+  - CVCalendar (= 1.2.7)
+  - SQLite.swift (from `https://github.com/stephencelis/SQLite.swift.git`, branch
+    `swift-2`)
+  - SWRevealViewController (from `https://github.com/John-Lluch/SWRevealViewController`)
+
+EXTERNAL SOURCES:
+  SQLite.swift:
+    :branch: swift-2
+    :git: https://github.com/stephencelis/SQLite.swift.git
+  SWRevealViewController:
+    :git: https://github.com/John-Lluch/SWRevealViewController
+
+CHECKOUT OPTIONS:
+  SQLite.swift:
+    :commit: e01cb82f63a7f59c28fc89a79b7f9cb59780a0f4
+    :git: https://github.com/stephencelis/SQLite.swift.git
+  SWRevealViewController:
+    :commit: bb4a110989d67a5fc5f5c533cacc92f6cb02f5e2
+    :git: https://github.com/John-Lluch/SWRevealViewController
+
+SPEC CHECKSUMS:
+  CVCalendar: 1ae6ee62dd7fd4c6a6703a43c641e11dfd32276e
+  SQLite.swift: 5dfee5c783b93f4c0035c0317a11c3c92cc91910
+  SWRevealViewController: b653f339865208c97be99a24876545f5be0cc4bb
+
+COCOAPODS: 0.39.0

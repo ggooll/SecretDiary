@@ -12,10 +12,23 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    
+    // RGB 0/62/96을 앱의 심볼칼라로 정하고 모두 통일
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        UINavigationBar.appearance().barTintColor = UIColor(red: 0/255, green: 62/255, blue: 96/255, alpha: 1.0)
+        // 틴트컬러 = 글자의 색깔
+        UINavigationBar.appearance().tintColor = UIColor.whiteColor()
+        // 텍스트의 폰트를 지정해주는 코드
+        if let barFont = UIFont(name: "Zapf Dingbats", size: 22.0) {
+            UINavigationBar.appearance().titleTextAttributes =
+                [NSForegroundColorAttributeName:UIColor.whiteColor(), NSFontAttributeName:barFont]
+        }
+        
+        UIApplication.sharedApplication().statusBarStyle = .LightContent
+        
+        // appearance  외관
+        UIBarButtonItem.appearance().tintColor = UIColor.whiteColor()
+        UIToolbar.appearance().barTintColor = UIColor(red: 0/255, green: 62/255, blue: 96/255, alpha: 1.0)
         return true
     }
 
